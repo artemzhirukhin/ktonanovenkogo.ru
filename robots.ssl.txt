@@ -1,0 +1,50 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /wp-admin
+Disallow: /vote/
+Disallow: */tagged/*
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /xmlrpc.php
+Disallow: /rezervnye-obyavleniya
+Disallow: /trackback/
+Disallow: /tag/
+Disallow: /feed/
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: */*/feed
+Disallow: /*?*
+Allow: *?ver=1.0.*
+Allow: *favicon.ico*
+Disallow: /?feed=
+Disallow: /?s=
+
+
+
+User-agent: Yandex
+Disallow: /wp-admin
+Disallow: /vote/
+Disallow: */tagged/*
+Disallow: /wp-includes
+Disallow: /xmlrpc.php
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /rezervnye-obyavleniya
+Disallow: /trackback/
+Disallow: /tag/
+Disallow: /feed/
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: */*/feed
+Disallow: /*?*
+Disallow: /?feed=
+Allow: *?ver=1.0.*
+Allow: *feed/z*
+Allow: *favicon.ico*
+Disallow: /?s=
+
+
+
